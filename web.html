@@ -398,7 +398,13 @@
                         rowData.push(cells[j].innerText);
                     } else if (j === 1) { // Weather Code
                         const selectId = `weather-${i-1}`;
-                        rowData.push(document.getElementById(selectId).value);
+                        const weatherCode = document.getElementById(selectId).value;
+                        const weatherDescriptions = {
+                            "0_D": "Clear sky","1_D": "Mainly clear", "2_D": "Partly cloudy","3": "Overcast","45": "Light fog","48": "Dense fog","51_D": "Light rain",
+                            "53_D": "Moderate rain","55": "Heavy rain","56": "Light freezing rain", "57": "Moderate freezing rain",
+                            "61": "Light snow", "63": "Moderate snow","65": "Heavy snow", "66": "Light rain and snow","67": "Heavy rain and snow","71": "Light rain","73": "Moderate rain","75": "Heavy rain",
+                            "77": "Light snow","80": "Rain and snow","81": "Rain and snow","82": "Rain and snow","85": "Rain and snow","86": "Rain and snow","95": "Thunderstorm","96": "Thunderstorm with light rain","99": "Thunderstorm with heavy rain"
+                        };
                     } else if (j === 2 || j === 3) { // 溫度
                         const tempSpan = cells[j].querySelector('span');
                         rowData.push(tempSpan.textContent);
