@@ -22,4 +22,7 @@ Weather Web 是一個基於 HTML、CSS 和 JavaScript 的網頁應用，允許�
 - [jQuery](https://jquery.com/) 簡化 JavaScript 操作
 
 ## 介面預覽
-![](screenshot.png) <!-- 請確保有該圖片，或自行添加 -->
+![擷取](https://github.com/user-attachments/assets/8e0be720-a5d2-46e1-87ea-b6af437a8bf9)
+![擷取12](https://github.com/user-attachments/assets/916e5fe8-d8cc-4791-9734-9dc94700b188)
+
+
